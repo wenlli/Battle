@@ -1,6 +1,6 @@
 # 定义一个common的类，它的父类是object
 import requests
-
+#
 
 class Common(object):
   # common的构造函数
