@@ -1,0 +1,14 @@
+
+#登录页路由
+from common import Common
+
+uri = '/login'
+# username变量存储用户名参数
+username = 'time.geekbang.org'
+# password变量存储密码参数
+password = 'time.geekbang.org'
+# 拼凑body的参数
+payload = 'username=' + username + '&password=' + password
+comm = Common()
+response_login = comm.post(uri,params=payload)
+print('Response内容：' + response_login.text)
