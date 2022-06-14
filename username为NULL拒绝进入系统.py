@@ -12,4 +12,3 @@ payload = 'username=' + username + '&password=' + password
 comm = Common()
 response_login = comm.post(uri,params=payload)
 print('Response内容：' + response_login.text)
-#上传

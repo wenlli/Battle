@@ -28,5 +28,3 @@ class Common(object):
       # 返回request的Response结果，类型为requests的Response类型
       res = requests.post(url)
     return res
-
-  # 上传

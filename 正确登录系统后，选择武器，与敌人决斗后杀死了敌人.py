@@ -39,4 +39,4 @@ payload = 'enemyid=' + enemyid + "&equipmentid=" + equipmentid
 comm = Common()
 response_kill = comm.post(uri_kill, params=payload)
 print('Response内容：' + response_kill.text)
-#上传
+

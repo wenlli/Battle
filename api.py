@@ -9,4 +9,3 @@ comm = Common()
 response_index = comm.get(uri)
 # 存储返回的response_index对象的text属性存储了访问主页的response信息，通过下面打印出来
 print('Response内容：' + response_index.text)
-#上传
